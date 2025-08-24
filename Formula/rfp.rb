@@ -5,8 +5,6 @@ class Rfp < Formula
   sha256 "979365373c2266aa2b7db3449cd3eff49e4651e56c2c357c353e7966169c7fa2"
   license "MIT"
 
-  depends_on "rust" => :build
-
   def install
     bin.install "rfp-universal" => "rfp"
   end
